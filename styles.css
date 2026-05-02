@@ -24,9 +24,9 @@ body{
   align-content: center;
 }
 .text1{
-    width: 400px;
+    width: 350px;
     color: whitesmoke;
-    margin-left: 100px
+    margin-left: 80px
 
 }
 .text1 h1{
@@ -37,5 +37,20 @@ body{
 .text1 p {
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700px;
+    font-weight: 500;
 }
+
+.button1{
+    height: 8vh;
+    width: 150px;
+    margin-left: 80px;
+    background-color: gold;
+    border-radius: 9px;
+    justify-items: center;
+    align-content: center;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.brow
