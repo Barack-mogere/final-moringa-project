@@ -1,6 +1,5 @@
 .header {
     display: flex;
-    border: solid white 0.5px;
     height: 90px;
     align-items: center;
     border-radius: 9px;
@@ -16,10 +15,27 @@ body{
 }
 
 .frontpage{
-   background-image: url(images/carbackground.png);
+   background-image: url(images/carbackgound.png);
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 90vh;
   margin-top: 2px;
+  align-content: center;
+}
+.text1{
+    width: 400px;
+    color: whitesmoke;
+    margin-left: 100px
+
+}
+.text1 h1{
+    font-size: 70px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text1 p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700px;
 }
