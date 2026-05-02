@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    border: solid white 0.5px;
+    height: 90px;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.header img{
+    height: 100px;
+}
+
+
+body{
+    background-color:#0f172a ;
+}
+
+.frontpage{
+   background-image: url(images/carbackground.png);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  margin-top: 2px;
+}
