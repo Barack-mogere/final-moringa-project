@@ -1,60 +1,90 @@
 .header {
-    display: flex;
-    height: 90px;
-    align-items: center;
-    border-radius: 9px;
+  display: flex;
+  height: 90px;
+  align-items: center;
+  border-radius: 9px;
 }
 
-.header img{
-    height: 100px;
+.header img {
+  height: 100px;
 }
 
-
-body{
-    background-color:#0f172a ;
+body {
+  background-color: #0f172a;
 }
 
-.frontpage{
-   background-image: url(images/carbackgound.png);
-    background-size: cover;
+.frontpage {
+  background-image: url(images/carbackgound.png);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 90vh;
   margin-top: 2px;
   align-content: center;
 }
-.text1{
-    width: 350px;
-    color: whitesmoke;
-    margin-left: 80px
-
+.text1 {
+  width: 350px;
+  color: whitesmoke;
+  margin-left: 80px;
 }
-.text1 h1{
-    font-size: 70px ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.text1 h1 {
+  font-size: 70px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
 }
 
 .text1 p {
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
 }
 
-.button1{
-    height: 8vh;
-    width: 150px;
-    margin-left: 80px;
-    background-color: gold;
-    border-radius: 9px;
-    justify-items: center;
-    align-content: center;
-    font-family: Inter, sans-serif;
-    font-weight: 700;
-    cursor: pointer;
+.button1 {
+  height: 8vh;
+  width: 150px;
+  margin-left: 80px;
+  background-color: gold;
+  border-radius: 9px;
+  justify-items: center;
+  align-content: center;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
 }
 
-.browsecars a{
-    text-decoration: none;
-    color:black ;
+.browsecars a {
+  text-decoration: none;
+  color: black;
 }
 
+.carstext {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
+.carstext h1 {
+  margin-bottom: 3px;
+}
+
+
+.carstext p {
+  font-weight: 50;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.carpics {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.carpics div {
+  border: 2px solid white;
+  width: 450px;
+  height: 450px;
+  margin: 10px;
+  border-radius: 10px;
+}
