@@ -146,6 +146,18 @@ body {
   color: gold;
   margin-left: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.carpics div a{
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #090d15;
+  color: white;
+  text-decoration: none; 
+  border-radius: 9px;
+  border: 0.5px solid white;
+  margin-left: 310px;
 }
 
 
