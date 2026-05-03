@@ -119,6 +119,12 @@ body {
   width:450px ;
   height: 350px;
   border-radius: 10px;
+  height: 50vh;
+ }
+ .carpics div:hover{
+   transition: 0.5s;
+    animation: ease-out;
+    transform: scale(1.04);
  }
 
  html {
