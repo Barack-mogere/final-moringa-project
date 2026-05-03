@@ -131,7 +131,24 @@ body {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 30px;
+  font-weight: 1000;
+  font-size: x-large;
+  margin-bottom: 8px;
  }
+
+ .carpics div p{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 30px;
+ }
+
+.carpics div h4{
+  color: gold;
+  margin-left: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 
  html {
   scroll-behavior: smooth;
