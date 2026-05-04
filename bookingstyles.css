@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 9px;
+}
+
+.header img {
+  height: 200px;
+}
+.header nav{
+  margin-left: 700px;
+}
+
+.header nav a{
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: gold;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+body {
+  background-image: url(images/booking.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backtocars{
+    margin-top: 20px;
+}
+
+.backtocars a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
