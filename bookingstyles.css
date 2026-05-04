@@ -91,3 +91,67 @@ body {
     color: white;
     border: 1px solid white;
 }
+
+#phone{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    border: radius 15px; 
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+}
+#phone:focus,
+#phone:valid,
+#phone:invalid,
+#phone:-webkit-autofill {
+  background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+}
+
+
+#email{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    border: radius 15px; 
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+}
+#email:focus,
+#email:valid,
+#email:invalid,
+#email:-webkit-autofill {
+  background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+}
+#date{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    border: radius 15px; 
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+}
+
+
+#car{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    border: radius 15px; 
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+}
+
+#submit{
+    background-color: gold;
+    width: 400px;
+    border: radius 15px; 
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+}
