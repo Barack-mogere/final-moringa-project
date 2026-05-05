@@ -10,8 +10,9 @@ let cars = [
     DriveType: "AWD (All-Wheel Drive)",
     Color: "White",
     Seats: "5 (Leather)",
-    accolades: "A luxury mid-size SUV that blends performance and comfort. The BMW X5 delivers strong turbocharged power, smooth highway driving, and advanced all-wheel drive capability, making it great for both city driving and long-distance travel with premium comfort.",
-    image:"images/car1.jpg",
+    accolades:
+      "A luxury mid-size SUV that blends performance and comfort. The BMW X5 delivers strong turbocharged power, smooth highway driving, and advanced all-wheel drive capability, making it great for both city driving and long-distance travel with premium comfort.",
+    image: "images/car1.jpg",
   },
   {
     id: 2,
@@ -24,8 +25,9 @@ let cars = [
     DriveType: "4WD (Full-time)",
     Color: "White",
     Seats: "7 (Leather)",
-    accolades: "A rugged and reliable off-road SUV built for tough terrains and everyday durability. The Prado is known for its strong diesel engine, excellent 4WD system, and spacious interior, making it ideal for both adventure and family use across rough roads.",
-    image:"images/car2.jpg",
+    accolades:
+      "A rugged and reliable off-road SUV built for tough terrains and everyday durability. The Prado is known for its strong diesel engine, excellent 4WD system, and spacious interior, making it ideal for both adventure and family use across rough roads.",
+    image: "images/car2.jpg",
   },
   {
     id: 3,
@@ -38,7 +40,8 @@ let cars = [
     DriveType: "AWD (4MATIC)",
     Color: "darkblue",
     Seats: "5 (Premium Leather)",
-    accolades: "A premium luxury SUV that focuses on comfort, technology, and refined performance. The GLE offers smooth acceleration, advanced driving assistance systems, and a high-end interior designed for a first-class driving experience.",
+    accolades:
+      "A premium luxury SUV that focuses on comfort, technology, and refined performance. The GLE offers smooth acceleration, advanced driving assistance systems, and a high-end interior designed for a first-class driving experience.",
     image: "images/car3.jpg",
   },
   {
@@ -52,7 +55,8 @@ let cars = [
     DriveType: "AWD (Quattro)",
     Color: "White",
     Seats: "5 (Leather)",
-    accolades: "A stylish compact luxury SUV with balanced performance and efficiency. The Audi Q5 features Quattro all-wheel drive for strong grip, a smooth turbo engine, and a modern interior that makes it perfect for both urban and highway driving.",
+    accolades:
+      "A stylish compact luxury SUV with balanced performance and efficiency. The Audi Q5 features Quattro all-wheel drive for strong grip, a smooth turbo engine, and a modern interior that makes it perfect for both urban and highway driving.",
     image: "images/car4.jpg",
   },
   {
@@ -66,7 +70,8 @@ let cars = [
     DriveType: "AWD",
     Color: "Red",
     Seats: "5 (Leather)",
-    accolades: "A compact luxury SUV with bold design and strong road presence. It combines off-road capability with urban elegance, offering all-wheel drive stability, a comfortable interior, and smooth handling for city and light adventure driving.",
+    accolades:
+      "A compact luxury SUV with bold design and strong road presence. It combines off-road capability with urban elegance, offering all-wheel drive stability, a comfortable interior, and smooth handling for city and light adventure driving.",
     image: "images/car5.jpg",
   },
   {
@@ -80,13 +85,14 @@ let cars = [
     DriveType: "FWD (Front-Wheel Drive)",
     Color: "Blue-Black",
     Seats: "5 (Fabric)",
-    accolades: "A reliable and fuel-efficient sedan built for everyday comfort and long-term durability. The Accord offers a smooth hybrid/petrol engine option, excellent fuel economy, and a spacious interior, making it ideal for daily commuting and highway travel.",
+    accolades:
+      "A reliable and fuel-efficient sedan built for everyday comfort and long-term durability. The Accord offers a smooth hybrid/petrol engine option, excellent fuel economy, and a spacious interior, making it ideal for daily commuting and highway travel.",
     image: "images/car6.jpg",
-  }
+  },
 ];
 
 function selectCar(id) {
-  let car = cars.find(c => c.id === id);
+  let car = cars.find((c) => c.id === id);
 
   localStorage.setItem("selectedCar", JSON.stringify(car));
 }
@@ -100,7 +106,8 @@ document.getElementById("Engine").innerText = "Engine: " + car.Engine;
 document.getElementById("Mileage").innerText = "Mileage: " + car.Mileage;
 document.getElementById("fuelType").innerText = "Fuel Type: " + car.FuelType;
 document.getElementById("driveType").innerText = "Drive Type: " + car.DriveType;
-document.getElementById("Color").innerText ="Color: " +  car.Color;
-document.getElementById("seats").innerText ="Seats: " + car.Seats;
+document.getElementById("Color").innerText = "Color: " + car.Color;
+document.getElementById("seats").innerText = "Seats: " + car.Seats;
 document.getElementById("Lildescription").innerText = car.accolades;
 document.getElementById("imgsection").src = car.image;
+

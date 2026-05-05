@@ -62,9 +62,9 @@ body {
 
 #imgsection{
   width: 500px;
-  border: 1px solid white;
   height: 350px;
   margin-left: 30px;
+  border-radius: 7px;
   
 }
 
