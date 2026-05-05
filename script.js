@@ -4,71 +4,71 @@ let cars = [
     name: "BMW X5",
     price: "Ksh 3,500,000",
     description: "2022 . SUV . Automatic",
-    Engine:
-    Milage:
-    FuelType:
-    DriveType:
-    Color:
-    Seats:
+    Engine: "3.0L Turbo Inline-6",
+    Mileage: "11-13km/l",
+    FuelType: "Petrol",
+    DriveType: "AWD (All-Wheel Drive)",
+    Color: "White",
+    Seats: "5 (Leather)",
   },
   {
     id: 2,
     name: "Toyota Prado",
     price: "Ksh 4,200,000",
     description: "2021 . SUV . Automatic",
-    Engine:
-    Milage:
-    FuelType:
-    DriveType:
-    Color:
-    Seats:
+    Engine: "2.8L Turbo Diesel Inline-4",
+    Mileage: "10 km/l",
+    FuelType: "Diesel",
+    DriveType: "4WD (Full-time)",
+    Color: "White",
+    Seats: "7 (Leather)",
   },
 
   {id: 3,
     name: "Mercedes Benz GLE",
     price: "Ksh 15,700,000",
-    description: "2021 . SUV . Automatic",
-    Engine:
-    Milage:
-    FuelType:
-    DriveType:
-    Color:
-    Seats:
+    description: "2025 . SUV . Automatic",
+    Engine: "2.0L Turbo Inline-4",
+    Mileage: "12 km/l",
+    FuelType: " Diesel",
+    DriveType: "AWD (4MATIC)",
+    Color: "darkblue",
+    Seats: "5 (Premium Leather)",
   }
 
-  {id: 2,
-    name: "Toyota Prado",
-    price: "Ksh 4,200,000",
+  {id: 4,
+    name: "Audi Q5",
+    price: "Ksh 3,200,000",
     description: "2021 . SUV . Automatic",
-    Engine:
-    Milage:
-    FuelType:
-    DriveType:
-    Color:
-    Seats:
+    Engine: "2.0L Turbo Inline-4",
+    Mileage: "15 km/l",
+    FuelType: "Petrol",
+    DriveType: "AWD (Quattro)",
+    Color: "White",
+    Seats: "5 (Leather)",
   }
 
-  {id: 2,
-    name: "Toyota Prado",
-    price: "Ksh 4,200,000",
-    description: "2021 . SUV . Automatic",
-    Engine:
-    Milage:
-    FuelType:
-    DriveType:
-    Color:
-    Seats:
+  {id: 5,
+    name: "Range Rover Evoque",
+    price: "Ksh 6,200,000",
+    description: "2023 . SUV . Automatic",
+    Engine: "2.0L Turbo Inline-4",
+    Mileage: "14 km/l",
+    FuelType: "Petrol",
+    DriveType: "AWD",
+    Color:"Red",
+    Seats: "5 (Leather)",
   }
 
-  {id: 2,
-    name: "Toyota Prado",
-    price: "Ksh 4,200,000",
-    description: "2021 . SUV . Automatic",
-    Engine:
-    Milage:
-    FuelType:
-    DriveType:
-    Color:
-    Seats:
+  {id: 6,
+    name: "Honda Acord",
+    price: "Ksh 2,200,000",
+    description: "2020 . Sedan . Automatic",
+    Engine: "1.5L Turbo Inline-4",
+    Mileage: "18 km/l",
+    FuelType:  "Hybrid",
+    DriveType: "FWD (Front-Wheel Drive)",
+    Color: "Blue-Black",
+    Seats: "5 (Fabric)",
   }
 ];
