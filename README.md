@@ -82,6 +82,7 @@ Dynamic content rendering
 Form validation and error handling
 
 ## Project Structure
+```plaintext
 
 car-dealership/
 │
@@ -100,6 +101,7 @@ car-dealership/
 ├── images/             # Car images and assets
 │
 └── README.md
+```
  ### How Data Persistence Works
 
 The application uses localStorage to pass data between pages:
