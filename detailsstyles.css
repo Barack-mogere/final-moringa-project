@@ -54,9 +54,59 @@ body {
     justify-content: center;
     margin-top: 50px;
 }
-.container div{
+ .carspecs{
     width: 500px;
     border: 1px solid white;
-    height: 500px;
+    height: 550px;
     margin-left: 30px;
+}
+
+.imgsection{
+  width: 500px;
+  border: 1px solid white;
+  height: 350px;
+  margin-left: 30px;
+}
+
+.carspecs h1{
+  border: 1px solid white;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carspecs h4{
+  border: 1px solid white;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.carspecs h3{
+  border: 1px solid white;
+  color: gold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  
+}
+
+.carspecs div p{
+  color: rgb(158, 158, 158);
+}
+
+.carspecs h2{
+   color: rgb(158, 158, 158);
+   font-size: small;
+}
+
+
+.buttons a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: gold;
+  color: black;
+  text-decoration: none; 
+  border-radius: 9px;
+  width: 450px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
