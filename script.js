@@ -23,20 +23,20 @@ let cars = [
     Color: "White",
     Seats: "7 (Leather)",
   },
-
-  {id: 3,
+  {
+    id: 3,
     name: "Mercedes Benz GLE",
     price: "Ksh 15,700,000",
     description: "2025 . SUV . Automatic",
     Engine: "2.0L Turbo Inline-4",
     Mileage: "12 km/l",
-    FuelType: " Diesel",
+    FuelType: "Diesel",
     DriveType: "AWD (4MATIC)",
     Color: "darkblue",
     Seats: "5 (Premium Leather)",
-  }
-
-  {id: 4,
+  },
+  {
+    id: 4,
     name: "Audi Q5",
     price: "Ksh 3,200,000",
     description: "2021 . SUV . Automatic",
@@ -46,9 +46,9 @@ let cars = [
     DriveType: "AWD (Quattro)",
     Color: "White",
     Seats: "5 (Leather)",
-  }
-
-  {id: 5,
+  },
+  {
+    id: 5,
     name: "Range Rover Evoque",
     price: "Ksh 6,200,000",
     description: "2023 . SUV . Automatic",
@@ -56,19 +56,37 @@ let cars = [
     Mileage: "14 km/l",
     FuelType: "Petrol",
     DriveType: "AWD",
-    Color:"Red",
+    Color: "Red",
     Seats: "5 (Leather)",
-  }
-
-  {id: 6,
-    name: "Honda Acord",
+  },
+  {
+    id: 6,
+    name: "Honda Accord",
     price: "Ksh 2,200,000",
     description: "2020 . Sedan . Automatic",
     Engine: "1.5L Turbo Inline-4",
     Mileage: "18 km/l",
-    FuelType:  "Hybrid",
+    FuelType: "Hybrid",
     DriveType: "FWD (Front-Wheel Drive)",
     Color: "Blue-Black",
     Seats: "5 (Fabric)",
   }
 ];
+
+function selectCar(id) {
+  let car = cars.find(c => c.id === id);
+
+  localStorage.setItem("selectedCar", JSON.stringify(car));
+}
+
+let car = JSON.parse(localStorage.getItem("selectedCar"));
+
+document.getElementById("carName").innerText = car.name;
+document.getElementById("carPrice").innerText = car.price;
+document.getElementById("carDescription").innerText = car.description;
+document.getElementById("Engine").innerText = car.Engine;
+document.getElementById("Mileage").innerText = car.Mileage;
+document.getElementById("fuelType").innerText = car.FuelType;
+document.getElementById("driveType").innerText = car.DriveType;
+document.getElementById("Color").innerText = car.Color;
+document.getElementById("Seats").innerText = car.Seats;
