@@ -106,7 +106,7 @@ Form validation and error handling
 ## Project Structure
 ```plaintext
 
-car-dealership/
+final-moringa-project/
 │
 ├── index.html          # Homepage (car listings)
 ├── details.html        # Displays selected car details
