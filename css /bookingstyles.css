@@ -36,7 +36,7 @@ nav a:hover::after {
 }
 
 body {
-  background-image: url(images/bookingimg.png);
+  background-image: url(../images/bookingimg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
