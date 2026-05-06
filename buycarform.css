@@ -1,0 +1,143 @@
+header {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 9px;
+}
+
+.header img {
+  height: 200px;
+}
+.header nav{
+  margin-left: 700px;
+}
+
+.header nav a{
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: gold;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+body {
+  background-image: url(images/buycarbackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backtocars{
+    margin-top: 20px;
+}
+
+.backtocars a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textsec {
+    color: white;
+    margin-left: 900px;
+    margin-top: 70px;
+}
+
+.textsec h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+.textsec p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formsec{
+    border: 1px solid white;
+    width: 450px;
+    margin-left: 900px;
+    height: 430px;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+#name{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    border: radius 15px; 
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+}
+
+#phone{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    border: radius 15px; 
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+}
+#phone:focus,
+#phone:valid,
+#phone:invalid,
+#phone:-webkit-autofill {
+  background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+}
+
+
+#email{
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    border: radius 15px; 
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+}
+#email:focus,
+#email:valid,
+#email:invalid,
+#email:-webkit-autofill {
+  background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+}
+
+#error{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: small;
+}
+
+#submit{
+    background-color: gold;
+    width: 400px;
+    border: radius 15px; 
+    height: 50px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
