@@ -63,6 +63,13 @@ Given: The user is on the booking page
 When: The user fills all required fields and submits
 Then: A success message is displayed
 
+### Scenario 4: User buys a car
+
+Given: The user is on the buy form page
+When: The user clicks on buy car and fills all required fields and submits 
+Then:A success message is diaplayed
+
+
 ### Scenario 4: Form validation
 
 Given: The user submits the form with missing inputs
@@ -89,14 +96,17 @@ car-dealership/
 ├── index.html          # Homepage (car listings)
 ├── details.html        # Displays selected car details
 ├── booking.html        # Test drive form
+├── buycarform.html     # Buy car form
 │
 ├── css/
-│   ├── index.css            # Homepage styles
-│   ├── detailsstyles.css     # Details page styles
-│   └── bookingstyles.css     # Form page styles
+│   ├── indexstyles.css      # Homepage styles
+│   ├──detailsstyles.css     # Details page styles
+│   ├── buycarform.css       #styles the buy car page 
+│   └── bookingstyles.css    # Form page styles
 │
 ├── js/
-│   ├── script.js         # runs the whole system
+│   ├── script.js         # runs the whole system except the buy car page
+│   ├── buycar.js         #runs the buy car page
 │
 ├── images/             # Car images and assets
 │
