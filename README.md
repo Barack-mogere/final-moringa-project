@@ -1,4 +1,19 @@
 # AutoHub – Car Dealership Web App
+
+## Problem statement 
+Many small or conceptual car dealership websites suffer from poor user experience, outdated design, and unclear information architecture. This makes it difficult for users to quickly browse available vehicles, understand the business offering, or trust the platform as a professional dealership.
+
+Most existing solutions lack:
+A clean, modern, and responsive interface
+Clear navigation between key sections such as inventory, about, and contact
+A visually appealing presentation of vehicles and services
+Consistent design elements that enhance brand credibility
+
+As a result, users often experience friction when trying to explore vehicles or learn more about the dealership, reducing engagement and overall usability.
+
+## Solution
+Auto Hub was developed as a modern, responsive car dealership website aimed at improving user experience through clean design, intuitive navigation, and structured content presentation. The project focuses on creating a premium digital presence that makes it easy for users to browse vehicles, understand services, and interact with the dealership seamlessly.
+
 ## Project Description
 
 AutoHub is an interactive web application that allows users to browse available cars, view detailed information about each vehicle, and book a test drive.
