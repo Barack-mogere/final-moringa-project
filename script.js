@@ -99,15 +99,52 @@ function selectCar(id) {
 
 let car = JSON.parse(localStorage.getItem("selectedCar"));
 
-document.getElementById("carName").innerText = car.name;
-document.getElementById("carPrice").innerText = car.price;
-document.getElementById("CarDescription").innerText = car.description;
-document.getElementById("Engine").innerText = "Engine: " + car.Engine;
-document.getElementById("Mileage").innerText = "Mileage: " + car.Mileage;
-document.getElementById("fuelType").innerText = "Fuel Type: " + car.FuelType;
-document.getElementById("driveType").innerText = "Drive Type: " + car.DriveType;
-document.getElementById("Color").innerText = "Color: " + car.Color;
-document.getElementById("seats").innerText = "Seats: " + car.Seats;
-document.getElementById("Lildescription").innerText = car.accolades;
-document.getElementById("imgsection").src = car.image;
+if (document.getElementById("carName")) {
+  let car = JSON.parse(localStorage.getItem("selectedCar"));
+
+  if (car) {
+    document.getElementById("carName").innerText = car.name;
+    document.getElementById("carPrice").innerText = car.price;
+    document.getElementById("CarDescription").innerText = car.description;
+    document.getElementById("Engine").innerText = "Engine: " + car.Engine;
+    document.getElementById("Mileage").innerText = "Mileage: " + car.Mileage;
+    document.getElementById("fuelType").innerText =
+      "Fuel Type: " + car.FuelType;
+    document.getElementById("driveType").innerText =
+      "Drive Type: " + car.DriveType;
+    document.getElementById("Color").innerText = "Color: " + car.Color;
+    document.getElementById("seats").innerText = "Seats: " + car.Seats;
+    document.getElementById("Lildescription").innerText = car.accolades;
+    document.getElementById("imgsection").src = car.image;
+  }
+}
+
+if (document.getElementById("bookingform")) {
+  document
+    .getElementById("bookingform")
+    .addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      let name = document.getElementById("name").value;
+      let phone = document.getElementById("phone").value;
+      let error = document.getElementById("error");
+      let email = document.getElementById("email").value;
+
+      if (name === "" || phone === "" || email === "") {
+        error.innerText = "Please fill all fields";
+        error.style.color = "red";
+        return;
+      }
+
+      if (phone.length < 10) {
+        error.innerText = "Enter a valid phone number";
+        error.style.color = "red";
+        return;
+      }
+
+      error.innerText =
+        "Booking successful!. Check your email for the next steps";
+      error.style.color = "green";
+    });
+}
 
