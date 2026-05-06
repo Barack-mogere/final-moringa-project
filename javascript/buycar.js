@@ -9,7 +9,8 @@ if (document.getElementById("bookingform")) {
       let error = document.getElementById("error");
       let email = document.getElementById("email").value;
 
-      if (name === "" || phone === "" || email === "") {
+      // the return messages
+        if (name === "" || phone === "" || email === "") {
         error.innerText = "Please fill all fields";
         error.style.color = "red";
         return;

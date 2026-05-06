@@ -1,3 +1,5 @@
+
+// cars array
 let cars = [
   {
     id: 1,
@@ -91,6 +93,7 @@ let cars = [
   },
 ];
 
+// function and condition
 function selectCar(id) {
   let car = cars.find((c) => c.id === id);
 
@@ -99,6 +102,7 @@ function selectCar(id) {
 
 let car = JSON.parse(localStorage.getItem("selectedCar"));
 
+// DOM manipulation
 if (document.getElementById("carName")) {
   let car = JSON.parse(localStorage.getItem("selectedCar"));
 
@@ -119,6 +123,8 @@ if (document.getElementById("carName")) {
   }
 }
 
+// form validation for the test drive page 
+
 if (document.getElementById("bookingform")) {
   document
     .getElementById("bookingform")
@@ -129,7 +135,8 @@ if (document.getElementById("bookingform")) {
       let phone = document.getElementById("phone").value;
       let error = document.getElementById("error");
       let email = document.getElementById("email").value;
-
+      
+      // the return messages
       if (name === "" || phone === "" || email === "") {
         error.innerText = "Please fill all fields";
         error.style.color = "red";
