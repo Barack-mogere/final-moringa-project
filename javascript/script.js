@@ -1,4 +1,4 @@
-
+// Car details page
 // cars array
 let cars = [
   {
@@ -112,10 +112,8 @@ if (document.getElementById("carName")) {
     document.getElementById("CarDescription").innerText = car.description;
     document.getElementById("Engine").innerText = "Engine: " + car.Engine;
     document.getElementById("Mileage").innerText = "Mileage: " + car.Mileage;
-    document.getElementById("fuelType").innerText =
-      "Fuel Type: " + car.FuelType;
-    document.getElementById("driveType").innerText =
-      "Drive Type: " + car.DriveType;
+    document.getElementById("fuelType").innerText ="Fuel Type: " + car.FuelType;
+    document.getElementById("driveType").innerText ="Drive Type: " + car.DriveType;
     document.getElementById("Color").innerText = "Color: " + car.Color;
     document.getElementById("seats").innerText = "Seats: " + car.Seats;
     document.getElementById("Lildescription").innerText = car.accolades;
@@ -123,13 +121,15 @@ if (document.getElementById("carName")) {
   }
 }
 
+
+// Book test drive page
 // form validation for the test drive page 
 
 if (document.getElementById("bookingform")) {
   document
     .getElementById("bookingform")
-    .addEventListener("submit", function (e) {
-      e.preventDefault();
+    .addEventListener("submit", function (banana) {
+      banana.preventDefault();
 
       let name = document.getElementById("name").value;
       let phone = document.getElementById("phone").value;

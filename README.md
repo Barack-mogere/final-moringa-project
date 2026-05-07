@@ -137,7 +137,6 @@ This allows a single details.html page to dynamically display different cars bas
 
 ## Known Limitations
 
-Data is stored locally and may be cleared by the browser
 No backend or database integration
 No real payment system (demo purposes only)
 
