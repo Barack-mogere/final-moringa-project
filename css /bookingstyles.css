@@ -9,11 +9,12 @@
 .header img {
   height: 200px;
 }
-.header nav{
+
+.header nav {
   margin-left: 700px;
 }
 
-.header nav a{
+.header nav a {
   margin-left: 40px;
   text-decoration: none;
   color: white;
@@ -41,114 +42,112 @@ body {
   background-repeat: no-repeat;
 }
 
-.backtocars{
-    margin-top: 20px;
+.backtocars {
+  margin-top: 20px;
 }
 
-.backtocars a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.backtocars a {
+  text-decoration: none;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .textsec {
-    color: white;
-    margin-left: 900px;
-    margin-top: 70px;
+  color: white;
+  margin-left: 900px;
+  margin-top: 70px;
 }
 
-.textsec h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 10px;
-    font-size: xx-large;
+.textsec h2 {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  margin-bottom: 10px;
+  font-size: xx-large;
 }
 
-.textsec p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.textsec p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.formsec{
-    border: 1px solid white;
-    width: 450px;
-    margin-left: 900px;
-    height: 430px;
-    border-radius: 9px;
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+.formsec {
+  border: 1px solid white;
+  width: 450px;
+  margin-left: 900px;
+  height: 430px;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-#name{
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    width: 400px;
-    border: radius 15px; 
-    height: 50px;
-    color: white;
-    border: 1px solid white;
+#name {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  width: 400px;
+  border: radius 15px;
+  height: 50px;
+  color: white;
+  border: 1px solid white;
 }
 
-#phone{
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    width: 400px;
-    border: radius 15px; 
-    height: 50px;
-    color: white;
-    border: 1px solid white;
+#phone {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  width: 400px;
+  border: radius 15px;
+  height: 50px;
+  color: white;
+  border: 1px solid white;
 }
 #phone:focus,
 #phone:valid,
 #phone:invalid,
 #phone:-webkit-autofill {
   background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
-
-#email{
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    width: 400px;
-    border: radius 15px; 
-    height: 50px;
-    color: white;
-    border: 1px solid white;
+#email {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  width: 400px;
+  border: radius 15px;
+  height: 50px;
+  color: white;
+  border: 1px solid white;
 }
 #email:focus,
 #email:valid,
 #email:invalid,
 #email:-webkit-autofill {
   background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
-
-#car{
-    background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(5px);
-    width: 400px;
-    border: radius 15px; 
-    height: 50px;
-    color: white;
-    border: 1px solid white;
+#car {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  width: 400px;
+  border: radius 15px;
+  height: 50px;
+  color: white;
+  border: 1px solid white;
 }
 
-#error{
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-size: small;
+#error {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
 }
 
-#submit{
-    background-color: gold;
-    width: 400px;
-    border: radius 15px; 
-    height: 50px;
-    color: white;
-    border: 1px solid white;
-    cursor: pointer;
+#submit {
+  background-color: gold;
+  width: 400px;
+  border: radius 15px;
+  height: 50px;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
 }

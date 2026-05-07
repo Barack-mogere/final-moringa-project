@@ -8,11 +8,11 @@
 .header img {
   height: 200px;
 }
-.header nav{
+.header nav {
   margin-left: 700px;
 }
 
-.header nav a{
+.header nav a {
   margin-left: 40px;
   text-decoration: none;
   color: white;
@@ -72,10 +72,10 @@ body {
   padding: 15px 23px;
   background-color: gold;
   color: black;
-  text-decoration: none; 
+  text-decoration: none;
   border-radius: 9px;
   margin-left: 80px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .carstext {
@@ -84,11 +84,9 @@ body {
   margin-left: 50px;
 }
 
-
 .carstext h1 {
   margin-bottom: 3px;
 }
-
 
 .carstext p {
   font-weight: 50;
@@ -110,67 +108,66 @@ body {
   border-radius: 10px;
   background-color: #090d15;
 }
- .carpics div img {
-  width:450px ;
+.carpics div img {
+  width: 450px;
   height: 300px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
- }
- .carpics div:hover{
-   transition: 0.5s;
-    animation: ease-out;
-    transform: scale(1.04);
- }
+}
+.carpics div:hover {
+  transition: 0.5s;
+  animation: ease-out;
+  transform: scale(1.04);
+}
 
- .carpics div h3{
+.carpics div h3 {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 30px;
   font-weight: 1000;
   font-size: x-large;
   margin-bottom: 8px;
- }
+}
 
- .carpics div p{
+.carpics div p {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 30px;
- }
+}
 
-.carpics div h4{
+.carpics div h4 {
   color: gold;
   margin-left: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 10px;
 }
 
-.carpics div a{
+.carpics div a {
   display: inline-block;
   padding: 12px 20px;
   background-color: #090d15;
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
   border-radius: 9px;
   border: 0.5px solid white;
   margin-left: 310px;
 }
 
-
- html {
+html {
   scroll-behavior: smooth;
 }
 
-#about{
+#about {
   margin-top: 70px;
 }
 
-#about h2{
-    justify-self: center;
-    color: #e0e0e0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#about h2 {
+  justify-self: center;
+  color: #e0e0e0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#about p{
+#about p {
   display: flex;
   color: rgb(158, 158, 158);
   text-align: center;
@@ -181,7 +178,7 @@ body {
 #footer {
   background-color: #0f172a;
   color: rgb(158, 158, 158);
-  height: 100px;  
+  height: 100px;
   margin-top: 70px;
 }
 
